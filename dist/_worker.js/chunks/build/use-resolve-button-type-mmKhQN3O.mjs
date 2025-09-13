@@ -1,0 +1,2 @@
+import{o as t}from"./keyboard-CAJ_aYVR.mjs";import{v as e}from"./server.mjs";function s(o,r){let n=e.ref(function(t,e){if(t)return t;let o=null!=e?e:"button";return"string"==typeof o&&"button"===o.toLowerCase()?"button":void 0}(o.value.type,o.value.as));return e.watchEffect(()=>{var e;n.value||t(r)&&t(r)instanceof HTMLButtonElement&&(null==(e=t(r))||!e.hasAttribute("type"))&&(n.value="button")}),n}export{s};
+//# sourceMappingURL=use-resolve-button-type-mmKhQN3O.mjs.map

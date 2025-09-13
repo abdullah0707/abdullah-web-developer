@@ -1,0 +1,54 @@
+@media (min-width: 319px) {
+  .custom-section {
+    padding: 30% 5% 0% !important;
+  }
+}
+@media (min-width: 425px) {
+  .custom-section {
+    padding: 25% 7% 0% !important;
+  }
+}
+@media (min-width: 700px) {
+  .custom-section {
+    padding: 5% 5% 0% !important;
+  }
+}
+@media (min-width: 1000px) {
+  .custom-section {
+    padding: 9% 4% 0% !important;
+  }
+}
+@media (min-width: 1400px) {
+  .custom-section {
+    padding: 5% 4% 0% !important;
+  }
+}
+@media (min-width: 1500px) {
+  .custom-section {
+    padding: 2% 4% 0% !important;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.shadow-title {
+  position: fixed;
+  bottom: -10px;
+  left: -25%;
+  width: 150%;
+  text-align: center;
+  font-size: 9vw;
+  line-height: 1;
+  color: rgba(200, 200, 200, 0.1);
+  background: linear-gradient(
+    rgba(200, 200, 200, 0),
+    rgba(200, 200, 200, 0.07)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  z-index: 1;
+}
+
