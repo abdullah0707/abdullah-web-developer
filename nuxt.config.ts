@@ -50,8 +50,8 @@ export default ({
          ],
          script: [
             { src: 'https://smtpjs.com/v3/smtp.js' },
-            { src: 'https://static.getbutton.io/widget/bundle.js?id=CTOmZ', async: true, defer: true },
             { src: '/animet.js', tagPosition: 'bodyClose' },
+            { src: 'https://static.getbutton.io/widget/bundle.js?id=CTOmZ', async: true, defer: true },
          ]
       },
    },
