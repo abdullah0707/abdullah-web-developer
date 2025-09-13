@@ -44,3 +44,4 @@ export { useToast } from '../node_modules/@nuxt/ui/dist/runtime/composables/useT
 export { useUI } from '../node_modules/@nuxt/ui/dist/runtime/composables/useUI';
 export { useColorMode } from '../node_modules/@nuxtjs/color-mode/dist/runtime/composables';
 export { useSocialShare } from '../node_modules/@stefanobartoletti/nuxt-social-share/dist/runtime/useSocialShare';
+export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
